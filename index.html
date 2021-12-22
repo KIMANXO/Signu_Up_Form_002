@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Sign Up Form</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form class="container">
+    <br />
+    <h1>Sign Up</h1>
+    <br />
+    <br />
+    <br />
+    <label class="user" for="username">Username:</label>
+    <br />
+    <br />
+    <input type="text" name="username" id="username" placeholder="  Username" required minlength="3" maxlength="12"/>
+    <br />
+    <br />
+    <label class="emaillabel" for="email">Email:</label>
+    <br />
+    <br />
+    <input type="email" name="email" id="email" placeholder="  Email" required maxlength="28"/>
+    <br />
+    <br />
+    <label class="passlabel" for="password">Password:</label>
+    <br />
+    <br />
+    <input type="Password" name="password" id="password" placeholder="  Password" required minlength="8" maxlength="16"/>
+    <br />
+    <br />
+    <label class="passlabel" for="confirm_password">Confirm Password:</label>
+    <br />
+    <br />
+    <input type="Password" name="confirm password" id="confirm_password" placeholder="  Confirm Password " required minlength="8" maxlength="16"/>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <input type="button" name="btn" id="btn" value="Submit" / onclick="send()">
+  </form>
+  <script src="main.js" </script>
+</body>
+</html>
